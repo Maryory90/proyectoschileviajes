@@ -1,0 +1,32 @@
+body {
+    background-color: #000000;
+    /*color: #ffffff;*/
+}
+
+
+.img-style {
+    width: 20px;
+}
+
+.navbar-style {
+    /*background color en 0 le da la transparencia total*/
+    background-color: rgba(255, 255, 255, 0) !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    /* el navbar esta por encima del carrusel*/
+    z-index: 10;
+}
+
+.text-icons {
+    color: #ffffff;
+}
+
+.text-link {
+    color: #ffffff;
+    opacity: 50%;
+}
+
+.footer{
+    height: 60px;
+}
