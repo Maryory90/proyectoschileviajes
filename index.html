@@ -14,6 +14,7 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
@@ -25,7 +26,6 @@
           <img class="img-style" src="assets/img/viajes.svg">
           <span class="text-icons">Viajes Chile</span>
         </div>
-
         <button class="navbar-toggler cb" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
           aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -35,14 +35,14 @@
             <li class="nav-item">
               <a class="nav-link text-link" aria-current="page" href="#">Inicio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link text-link" href="#">Quienes Somos</a>
+            <li class="nav-item item-special">
+              <a class="nav-link text-link" href="#quienes-somos">Quienes Somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-link" href="#">Destacados</a>
+              <a class="nav-link text-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link text-link" href="#">Contacto</a>
+              <a class="nav-link text-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -82,8 +82,8 @@
     </button>
   </div>
 
-  <div class="content-principal">
-    <div class="style-qs">
+  <div class="">
+    <div class="style-qs content-principal" id="quienes-somos">
       <p class="mt-4 title-style">¿QUIÉNES SOMOS?</p>
       <div class="line-inicio"></div>
       <section id="Eventos-Anteriores">
@@ -129,7 +129,7 @@
       </section>
     </div>
 
-    <div class="container">
+    <div class="content-principal" id="destacados">
       <p class="mt-4 title-style">DESTACADOS</p>
       <div class="line-inicio"></div>
       <div class="row mt-4 pb-5">
@@ -176,9 +176,8 @@
         </div>
       </div>
     </div>
-  </div>
 
-  <div class="mb-5 ">
+  <div class="mb-5" id="contacto">
     <div class="content-principal">
       <p class="mt-4 title-style">CONTACTO</p>
     </div>
@@ -196,20 +195,30 @@
         <label for="exampleFormControlTextarea1" class="form-label sytle-text-form">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
-      <button type="button" class="btn btn-info style-button">Enviar</button>
+      <button type="button" class="btn btn-info style-button" id="enviarFormularioConta" data-bs-toggle="tooltip"
+      data-bs-placement="bottom" data-bs-title="Presiona para enviar tu mensaje">Enviar</button>
     </div>
   </div>
+  </div>
 
-  <div class="footer text-bg-info bg-icons">
-    <div class="row">
-      <div class="col-6 text-footer">
-        <p class="text-viajes">VIAJES CHILE</p>
-      </div>
-      <div class="col-6">
+<div class="footer text-bg-info bg-icons">
+  <div class="row row-footer">
+    <div class="col-4 text-footer">
+      <p class="text-viajes">VIAJES CHILE</p>
+    </div>
+    <div class="col-4">
+      <a href="https://x.com/?lang=es" class="icons-footer">
         <i class="fa-brands fa-square-twitter fa-lg" style="color: #ffffff;"></i>
+      </a>
+      <a href="https://www.facebook.com/" class="icons-footer">
         <i class="fa-brands fa-square-facebook fa-lg" style="color: #ffffff;"></i>
+      </a>
+      <a href="https://www.linkedin.com/" class="icons-footer">
         <i class="fa-brands fa-linkedin fa-lg" style="color: #ffffff;"></i>
+      </a>
+      <a href="https://github.com/" class="icons-footer">
         <i class="fa-brands fa-github fa-lg" style="color: #ffffff;"></i>
+      </a>
       </div>
     </div>
   </div>

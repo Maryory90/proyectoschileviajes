@@ -1,8 +1,24 @@
-body {
-    background-color: #000000;
-    /*color: #ffffff;*/
+@media (max-width: 768px) {
+    /* desaparecer seccion quienes somos*/
+    #quienes-somos {
+      display: none;
+    }
+
+   /*desaparecer opcion quienes somos(menu)*/
+    .item-special  {
+        display: none;
+    }
 }
 
+body {
+    background-color: #000000;
+    
+    overflow-x: hidden;
+    overflow-y: auto;
+    /*margin:0;*/
+}
+
+/*navbar*/
 .navbar-style {
     /*background color en 0 le da la transparencia total*/
     background-color: rgba(255, 255, 255, 0) !important;
@@ -13,105 +29,138 @@ body {
     z-index: 10;
     padding-right: 100px;
     padding-left: 100px;
+}
 
-    .icons-text {
-        .img-style {
-            width: 20px;
-        }
-
-        .text-icons {
-            color: #ffffff;
-        }
+.icons-text {
+    .img-style {
+        width: 20px;
     }
 
-    .text-link {
+.text-icons {
         color: #ffffff;
-        opacity: 70%;
+        font-family: "Cabin", sans-serif;
+        font-weight: 400;
     }
 }
 
-/*Contendido principal*/
+.text-link {
+    color: #ffffff;
+    opacity: 70%;
+    font-size:16px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+/*clases compartidad*/
 .content-principal {
     padding-left: 80px;
     padding-right: 80px;
+}
 
-    .style-qs {
-        .line-inicio {
-            background-color: #ffffff;
-            opacity: 15%;
-            height: 0.9px;
-            width: 90%;
-            /* margin-top: 30px; */
-            margin-bottom: 30px;
-            /* align-content: center; */
-            /* margin-right: 5%; */
-            margin-left: 5%;
-        }
-    }
-
-    .title-style {
-        color: #ffffff;
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .text-desc {
-        color: #ffffff;
-
-    }
-
-    .img-card {
-        height: 145px;
-    }
-
-    .style-title-card {
-        color: #ffffff !important;
-        font-size: 15px;
-    }
-
-    .style-desc-card {
-        color: #ffffff !important;
-        font-size: 13px;
-    }
-
-    .card-style {
-        border-color: #fff;
-        min-height: 370px;
-    }
-
-    .style-button {
-        color: #ffffff;
-    }
-
-    .sytle-text-form {
-        color: #ffffff;
-    }
+.title-style {
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .line-inicio {
     background-color: #ffffff;
     opacity: 15%;
     height: 0.9px;
-    width: 100%;
+    width: 90%;
+    margin-bottom: 30px;
+    margin-left: 5%;
 }
 
+.text-desc {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+/*seccion destacados*/
+.card-style {
+    border-color: #fff;
+    min-height: 370px;
+}
+
+.img-card {
+    min-height: 145px;
+    max-height: 145px;
+}
+
+.style-title-card {
+    color: #ffffff !important;
+    font-size: 18px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.style-desc-card {
+    color: #ffffff !important;
+    font-size: 15px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+/*donde 
+
+.line-inicio {
+    background-color: #ffffff;
+    opacity: 15%;
+    height: 0.9px;
+    width: 100%;
+}*/
+
+
+/*contacto*/
 .linea-final {
     background-color: #ffffff;
     opacity: 15%;
     height: 0.9px;
-    width: 95%;
-    margin-left: 2.5%;
+    width: 96%;
+    margin-left: 2%;
+    margin-right:2%;
+}
+
+.sytle-text-form {
+    color: #ffffff;
+    font-size:16px;
+    font-family: "Cabin", sans-serif;
+    font-weight: 400;
+}
+
+.style-button {
+    color: #ffffff;
+}
+
+/*footer*/
+.bg-icons {
+    height: 60px;
 }
 
 .text-viajes {
     font-size: 20px;
     color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
-.bg-icons {
-    height: 60px;
+.icons-footer {
+    padding-left: 5px;
+    color: #0dcaf0;
 }
 
-.text-footer {
-    padding-left: 230px;
+.footer {
+    text-align: -webkit-center;
+}
+
+.row-footer {
+    padding-top: 12px;
+    place-content: center;
 }
