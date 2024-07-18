@@ -28,13 +28,26 @@ body {
         color: #ffffff;
         opacity: 70%;
     }
-    
 }
 
-/*section quienes somos*/
-.style-qs {
-    padding-left: 100px;
-    padding-right: 100px;
+/*Contendido principal*/
+.content-principal {
+    padding-left: 80px;
+    padding-right: 80px;
+
+    .style-qs {
+        .line-inicio {
+            background-color: #ffffff;
+            opacity: 15%;
+            height: 0.9px;
+            width: 90%;
+            /* margin-top: 30px; */
+            margin-bottom: 30px;
+            /* align-content: center; */
+            /* margin-right: 5%; */
+            margin-left: 5%;
+        }
+    }
 
     .title-style {
         color: #ffffff;
@@ -42,32 +55,63 @@ body {
         text-align: center;
     }
 
-    .line-inicio {
-        background-color: #ffffff;
-        opacity: 15%;
-        height: 0.9px;
-        width: 90%;
-        /* margin-top: 30px; */
-        margin-bottom: 30px;
-        /* align-content: center; */
-        /* margin-right: 5%; */
-        margin-left: 5%;
+    .text-desc {
+        color: #ffffff;
+
+    }
+
+    .img-card {
+        height: 145px;
+    }
+
+    .style-title-card {
+        color: #ffffff !important;
+        font-size: 15px;
+    }
+
+    .style-desc-card {
+        color: #ffffff !important;
+        font-size: 13px;
+    }
+
+    .card-style {
+        border-color: #fff;
+        min-height: 370px;
+    }
+
+    .style-button {
+        color: #ffffff;
+    }
+
+    .sytle-text-form {
+        color: #ffffff;
     }
 }
 
-.text-desc {
-    color: #ffffff;
-
+.line-inicio {
+    background-color: #ffffff;
+    opacity: 15%;
+    height: 0.9px;
+    width: 100%;
 }
 
-
-
-.footer{
-    height: 60px;
+.linea-final {
+    background-color: #ffffff;
+    opacity: 15%;
+    height: 0.9px;
+    width: 95%;
+    margin-left: 2.5%;
 }
 
 .text-viajes {
- font-size:20px;
- color: #ffffff;
+    font-size: 20px;
+    color: #ffffff;
 }
 
+.bg-icons {
+    height: 60px;
+}
+
+.text-footer {
+    padding-left: 230px;
+}
