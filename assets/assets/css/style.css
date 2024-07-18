@@ -19,26 +19,74 @@ body {
             width: 20px;
         }
 
-        .text-icons {
+    .text-icons {
             color: #ffffff;
         }
     }
+
+    .text-link {
+        color: #ffffff;
+        opacity: 70%;
+    }
+    
 }
 
+/*section quienes somos*/
+.style-qs {
+    padding-left: 100px;
+    padding-right: 100px;
 
+    .line-inicio {
+        background-color: #ffffff;
+        opacity: 15%;
+        height: 0.9px;
+        width: 90%;
+        /* margin-top: 30px; */
+        margin-bottom: 30px;
+        /* align-content: center; */
+        /* margin-right: 5%; */
+        margin-left: 5%;
+    }
+}
 
-.text-link {
+.title-style {
     color: #ffffff;
-    opacity: 70%;
+    font-size: 20px;
+    text-align: center;
+}
+
+.text-desc {
+    color: #ffffff;
+
+}
+
+.img-card {
+
+    min-height: 145px;
+    max-height: 145px;
+}
+
+.style-title-card {
+    color: #ffffff !important;
+    font-size: 15px;
+}
+
+.style-desc-card{
+    color: #ffffff !important;
+    font-size: 13px;
+
+}
+
+.card-style{
+    border-color: #fff;
+    min-height: 350px;
 }
 
 .line-inicio {
     background-color: #ffffff;
     opacity: 15%;
     height: 0.9px;
-    width: 70%;
-    /*margin-top: 30px;*/
-    margin-bottom: 30px;
+    width: 100%;
 }
 
 .footer{
