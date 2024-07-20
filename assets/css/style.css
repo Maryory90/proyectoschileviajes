@@ -23,23 +23,44 @@ body {
             color: #ffffff;
         }
     }
+
+    .text-link {
+        color: #ffffff;
+        opacity: 70%;
+    }
+    
 }
 
+/*section quienes somos*/
+.style-qs {
+    padding-left: 100px;
+    padding-right: 100px;
 
+    .title-style {
+        color: #ffffff;
+        font-size: 20px;
+        text-align: center;
+    }
 
-.text-link {
+    .line-inicio {
+        background-color: #ffffff;
+        opacity: 15%;
+        height: 0.9px;
+        width: 90%;
+        /* margin-top: 30px; */
+        margin-bottom: 30px;
+        /* align-content: center; */
+        /* margin-right: 5%; */
+        margin-left: 5%;
+    }
+}
+
+.text-desc {
     color: #ffffff;
-    opacity: 70%;
+
 }
 
-.line-inicio {
-    background-color: #ffffff;
-    opacity: 15%;
-    height: 0.9px;
-    width: 70%;
-    /*margin-top: 30px;*/
-    margin-bottom: 30px;
-}
+
 
 .footer{
     height: 60px;
