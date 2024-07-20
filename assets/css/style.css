@@ -38,6 +38,11 @@ body {
     /*margin:0;*/
 }
 
+/*centrar iconos de quienes somos*/
+.text-bg-info {
+    text-align: -webkit-center;
+}
+
 /*navbar*/
 .navbar-style {
     /*background color en 0 le da la transparencia total*/
