@@ -3,11 +3,6 @@ body {
     /*color: #ffffff;*/
 }
 
-
-.img-style {
-    width: 20px;
-}
-
 .navbar-style {
     /*background color en 0 le da la transparencia total*/
     background-color: rgba(255, 255, 255, 0) !important;
@@ -16,17 +11,42 @@ body {
     width: 100%;
     /* el navbar esta por encima del carrusel*/
     z-index: 10;
+    padding-right: 100px;
+    padding-left: 100px;
+
+    .icons-text {
+        .img-style {
+            width: 20px;
+        }
+
+        .text-icons {
+            color: #ffffff;
+        }
+    }
 }
 
-.text-icons {
-    color: #ffffff;
-}
+
 
 .text-link {
     color: #ffffff;
-    opacity: 50%;
+    opacity: 70%;
+}
+
+.line-inicio {
+    background-color: #ffffff;
+    opacity: 15%;
+    height: 0.9px;
+    width: 70%;
+    /*margin-top: 30px;*/
+    margin-bottom: 30px;
 }
 
 .footer{
     height: 60px;
 }
+
+.text-viajes {
+ font-size:20px;
+ color: #ffffff;
+}
+
