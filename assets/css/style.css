@@ -19,7 +19,7 @@ body {
             width: 20px;
         }
 
-        .text-icons {
+    .text-icons {
             color: #ffffff;
         }
     }
@@ -36,12 +36,6 @@ body {
     padding-left: 100px;
     padding-right: 100px;
 
-    .title-style {
-        color: #ffffff;
-        font-size: 20px;
-        text-align: center;
-    }
-
     .line-inicio {
         background-color: #ffffff;
         opacity: 15%;
@@ -55,12 +49,45 @@ body {
     }
 }
 
+.title-style {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+}
+
 .text-desc {
     color: #ffffff;
 
 }
 
+.img-card {
 
+    min-height: 145px;
+    max-height: 145px;
+}
+
+.style-title-card {
+    color: #ffffff !important;
+    font-size: 15px;
+}
+
+.style-desc-card{
+    color: #ffffff !important;
+    font-size: 13px;
+
+}
+
+.card-style{
+    border-color: #fff;
+    min-height: 350px;
+}
+
+.line-inicio {
+    background-color: #ffffff;
+    opacity: 15%;
+    height: 0.9px;
+    width: 100%;
+}
 
 .footer{
     height: 60px;
