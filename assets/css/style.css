@@ -10,6 +10,26 @@
     }
 }
 
+ /* Control de tamaño card adaptativas*/
+@media (min-width: 768px) {
+    .card-style {
+        height: 500px;
+    }
+}
+
+@media (min-width: 824px) {
+    .card-style {
+        height: 470px;
+    }
+}
+
+@media (min-width: 924px) {
+    .card-style {
+        height: 400px;
+    }
+}
+ /* Fin Control de tamaño card adaptativas*/
+
 body {
     background-color: #000000;
     
@@ -106,16 +126,6 @@ body {
     font-family: "Cabin", sans-serif;
     font-weight: 400;
 }
-
-/*donde 
-
-.line-inicio {
-    background-color: #ffffff;
-    opacity: 15%;
-    height: 0.9px;
-    width: 100%;
-}*/
-
 
 /*contacto*/
 .linea-final {
